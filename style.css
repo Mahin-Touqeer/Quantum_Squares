@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    overflow: hidden;
+    /* background-color: pink; */
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+}
+.content{
+    width: 90vh;
+    height: 90vh;
+    margin: 0vh calc((100vw - 90vh)/2);
+    
+    display: flex;
+    flex-wrap: wrap;
+}
+.boxes{
+    width: 18vh;
+    height: 18vh;
+    border: 2px solid black;
+    position: relative;
+}
+h1{
+    display: inline-block;
+}
+.Two{
+    position: fixed;
+    right: 0%;
+    top: 0%;
+}
+p{
+    font-size: 20px;
+}
